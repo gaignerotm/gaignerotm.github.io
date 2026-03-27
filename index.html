@@ -1,24 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Your Name | Programming Portfolio</title>
-  <meta name="description" content="Programming portfolio featuring selected Python and C projects." />
+  <title>Vos projets de programmation</title>
+  <meta
+    name="description"
+    content="Portfolio simple présentant une sélection de projets personnels en Python et en C."
+  />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header class="hero">
     <div class="container">
-      <p class="eyebrow">Programming Portfolio</p>
-      <h1>Your Name</h1>
+      <p class="eyebrow">Portfolio de programmation</p>
+      <h1>Vos projets personnels</h1>
       <p class="lead">
-        I am a student interested in programming, problem-solving, and building projects in Python and C.
-        This website presents a selection of my programming work.
+        Cette page présente une sélection de projets personnels réalisés principalement en Python et en C.
+        Elle a pour objectif de donner un aperçu simple et concret de mon intérêt pour la programmation,
+        l'algorithmique et la résolution de problèmes.
       </p>
       <div class="hero-actions">
-        <a class="button primary" href="#projects">View projects</a>
-        <a class="button" href="https://github.com/yourusername" target="_blank" rel="noopener">GitHub profile</a>
+        <a class="button primary" href="#projects">Voir les projets</a>
+        <a class="button" href="https://github.com/votre-utilisateur" target="_blank" rel="noopener">Profil GitHub</a>
       </div>
     </div>
   </header>
@@ -26,85 +30,146 @@
   <main>
     <section id="projects" class="section">
       <div class="container">
-        <h2>Selected Projects</h2>
+        <h2>Projets sélectionnés</h2>
         <p class="section-intro">
-          Replace the sample projects below with your real repositories, descriptions, and screenshots.
+          Chaque projet possède son dépôt GitHub avec le code source et, selon le cas,
+          des explications complémentaires sur l'implémentation.
         </p>
 
         <div class="grid">
           <article class="card">
             <div class="card-content">
-              <span class="tag">C</span>
-              <h3>RSA / Large Integer Experiments</h3>
+              <span class="tag">Python</span>
+              <h3>Apprentissage par renforcement sur le Tic-Tac-Toe</h3>
               <p>
-                A C project exploring number theory, modular arithmetic, and large integer computations.
-                This project reflects my interest in cryptography and algorithmic problem-solving.
+                Projet dans lequel j'ai entraîné un agent à améliorer progressivement son jeu au Tic-Tac-Toe.
+                Ce travail m'a permis d'explorer l'apprentissage par renforcement, les boucles d'entraînement
+                et l'évaluation des performances d'un agent.
               </p>
               <ul>
-                <li>Language: C</li>
-                <li>Topics: number theory, modular arithmetic, algorithms</li>
-                <li>Optional library: GMP</li>
+                <li>Langage : Python</li>
+                <li>Thèmes : reinforcement learning, expérimentation, optimisation</li>
+                <li>Intérêt principal : logique d'entraînement et progression de l'agent</li>
               </ul>
             </div>
             <div class="card-actions">
-              <a class="button small" href="https://github.com/yourusername/rsa-project" target="_blank" rel="noopener">Source code</a>
+              <a class="button small" href="https://github.com/votre-utilisateur/tictactoe-rl" target="_blank" rel="noopener">Code source</a>
             </div>
           </article>
 
           <article class="card">
             <div class="card-content">
               <span class="tag">Python</span>
-              <h3>Tic-Tac-Toe Reinforcement Learning</h3>
+              <h3>Réseau de neurones - Projet 1</h3>
               <p>
-                A Python project in which I trained an agent to improve its Tic-Tac-Toe performance
-                through reinforcement learning and experimentation.
+                Premier projet consacré aux réseaux de neurones, avec une implémentation centrée sur
+                la propagation avant, la compréhension de la structure du modèle et l'analyse de son comportement.
               </p>
               <ul>
-                <li>Language: Python</li>
-                <li>Topics: machine learning, reinforcement learning</li>
-                <li>Focus: experimentation and iterative improvement</li>
+                <li>Langage : Python</li>
+                <li>Thèmes : réseaux de neurones, modélisation, expérimentation</li>
+                <li>Intérêt principal : compréhension du fonctionnement interne d'un modèle</li>
               </ul>
             </div>
             <div class="card-actions">
-              <a class="button small" href="https://github.com/yourusername/tictactoe-rl" target="_blank" rel="noopener">Source code</a>
-            </div>
-          </article>
-
-          <article class="card">
-            <div class="card-content">
-              <span class="tag">C</span>
-              <h3>Algorithm / Data Structure Project</h3>
-              <p>
-                A C project centered on low-level programming, efficiency, memory handling, and problem-solving.
-                Use this card for one of your strongest technical projects.
-              </p>
-              <ul>
-                <li>Language: C</li>
-                <li>Topics: pointers, memory, performance</li>
-                <li>Good for showcasing technical rigor</li>
-              </ul>
-            </div>
-            <div class="card-actions">
-              <a class="button small" href="https://github.com/yourusername/c-project" target="_blank" rel="noopener">Source code</a>
+              <a class="button small" href="https://github.com/votre-utilisateur/neural-network-1" target="_blank" rel="noopener">Code source</a>
             </div>
           </article>
 
           <article class="card">
             <div class="card-content">
               <span class="tag">Python</span>
-              <h3>Automation / Utility Script</h3>
+              <h3>Réseau de neurones et rétropropagation</h3>
               <p>
-                A Python utility project demonstrating practical programming, clean structure, and
-                the ability to build useful tools from scratch.
+                Projet orienté sur la mise en œuvre de la rétropropagation et l'ajustement des poids.
+                Il met en avant la dimension mathématique de l'entraînement d'un réseau de neurones.
               </p>
               <ul>
-                <li>Language: Python</li>
-                <li>Topics: scripting, automation, organization</li>
-                <li>Shows practical application of code</li>
+                <li>Langage : Python</li>
+                <li>Thèmes : backpropagation, apprentissage supervisé, calcul matriciel</li>
+                <li>Intérêt principal : lien entre théorie et implémentation</li>
               </ul>
             </div>
             <div class="card-actions">
-              <a class="button small" href="https://github.com/yourusername/python-project" target="_blank" rel="noopener">Source code</a>
+              <a class="button small" href="https://github.com/votre-utilisateur/backpropagation-project" target="_blank" rel="noopener">Code source</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-content">
+              <span class="tag">C</span>
+              <h3>Algorithme de hachage</h3>
+              <p>
+                Projet en C dédié à la conception et à l'étude d'un algorithme de hachage.
+                Il illustre mon intérêt pour les mécanismes fondamentaux de sécurité informatique
+                et les structures bas niveau.
+              </p>
+              <ul>
+                <li>Langage : C</li>
+                <li>Thèmes : hachage, sécurité, manipulation bas niveau</li>
+                <li>Intérêt principal : rigueur de l'implémentation et structure des données</li>
+              </ul>
+            </div>
+            <div class="card-actions">
+              <a class="button small" href="https://github.com/votre-utilisateur/hash-algorithm-c" target="_blank" rel="noopener">Code source</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-content">
+              <span class="tag">C</span>
+              <h3>Chiffrement symétrique et asymétrique</h3>
+              <p>
+                Ensemble de projets en C portant sur la conception d'algorithmes de chiffrement,
+                avec une attention particulière portée aux idées mathématiques, à la manipulation
+                des entiers et à la logique cryptographique.
+              </p>
+              <ul>
+                <li>Langage : C</li>
+                <li>Thèmes : cryptographie, arithmétique modulaire, sécurité</li>
+                <li>Intérêt principal : implémentation concrète de concepts théoriques</li>
+              </ul>
+            </div>
+            <div class="card-actions split-actions">
+              <a class="button small" href="https://github.com/votre-utilisateur/symmetric-encryption-c" target="_blank" rel="noopener">Projet symétrique</a>
+              <a class="button small secondary" href="https://github.com/votre-utilisateur/asymmetric-encryption-c" target="_blank" rel="noopener">Projet asymétrique</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-content">
+              <span class="tag">Python</span>
+              <h3>Simulation 3D de guidage missile par navigation proportionnelle</h3>
+              <p>
+                Simulation en Python d'un guidage missile en trois dimensions, fondée sur la navigation proportionnelle.
+                Ce projet associe modélisation, calcul, visualisation et mise en pratique de notions de dynamique.
+              </p>
+              <ul>
+                <li>Langage : Python</li>
+                <li>Thèmes : simulation, guidage, modélisation 3D</li>
+                <li>Intérêt principal : lien entre mathématiques appliquées et programmation</li>
+              </ul>
+            </div>
+            <div class="card-actions">
+              <a class="button small" href="https://github.com/votre-utilisateur/proportional-navigation-3d" target="_blank" rel="noopener">Code source</a>
+            </div>
+          </article>
+
+          <article class="card placeholder-card">
+            <div class="card-content">
+              <span class="tag">Projet</span>
+              <h3>Autre projet personnel</h3>
+              <p>
+                Emplacement réservé à un projet complémentaire que vous jugez intéressant à montrer.
+                Vous pouvez l'utiliser pour un projet technique, original ou particulièrement représentatif.
+              </p>
+              <ul>
+                <li>À personnaliser selon le projet choisi</li>
+                <li>Ajouter un titre précis et un lien GitHub</li>
+              </ul>
+            </div>
+            <div class="card-actions">
+              <a class="button small" href="https://github.com/votre-utilisateur/autre-projet" target="_blank" rel="noopener">Code source</a>
             </div>
           </article>
         </div>
@@ -113,31 +178,31 @@
 
     <section id="about" class="section alt">
       <div class="container narrow">
-        <h2>About</h2>
+        <h2>À propos</h2>
         <p>
-          I enjoy exploring programming through personal projects, especially in Python and C.
-          Through these projects, I have developed my interest in algorithms, technical problem-solving,
-          and building programs from the ground up.
+          À travers ces projets, j'ai cherché à développer une approche autonome de la programmation,
+          en travaillant aussi bien sur des problématiques d'algorithmique, de cryptographie,
+          d'intelligence artificielle que de simulation.
         </p>
         <p>
-          This portfolio is intended to give a quick overview of the projects I have worked on and
-          the technical skills I have developed through practice.
+          Cette page a simplement pour but de présenter quelques réalisations concrètes mentionnées
+          dans ma lettre de motivation et de permettre un accès direct à leur code source.
         </p>
       </div>
     </section>
 
     <section id="contact" class="section">
       <div class="container narrow">
-        <h2>Contact</h2>
-        <p>Email: <a href="mailto:your@email.com">your@email.com</a></p>
-        <p>GitHub: <a href="https://github.com/yourusername" target="_blank" rel="noopener">github.com/yourusername</a></p>
+        <h2>Liens</h2>
+        <p>GitHub : <a href="https://github.com/votre-utilisateur" target="_blank" rel="noopener">github.com/votre-utilisateur</a></p>
+        <p>Remplacez « votre-utilisateur » par votre vrai nom d'utilisateur GitHub.</p>
       </div>
     </section>
   </main>
 
   <footer class="footer">
     <div class="container">
-      <p>© 2026 Your Name — Programming Portfolio</p>
+      <p>Portfolio de programmation - à personnaliser avec votre nom</p>
     </div>
   </footer>
 </body>
